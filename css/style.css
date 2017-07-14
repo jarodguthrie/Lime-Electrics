@@ -110,7 +110,7 @@ table {
   margin: 0 auto;
 }
 #loading #preloader:after {
-  content: "Legend is loading";
+  content: "Lime Electrics Loading";
   /* Text under the circles */
   position: absolute;
   text-transform: uppercase;
@@ -702,7 +702,6 @@ sup {
 }
 #info-wrap h1.darky, #info-wrap h2.darky, #info-wrap h3.darky, #info-wrap h4.darky, #info-wrap h5.darky, #info-wrap h6.darky {
   color: #555555;
-  text-transform: uppercase;
   font-weight: 600;
   font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
 }
@@ -751,7 +750,7 @@ sup {
 }
 #info-wrap .content-form {
   padding: 8% 10%;
-  background: #f2f3f7;
+  background: #ffffff;
 }
 #info-wrap .no-padding-bottom {
   padding-bottom: 0;

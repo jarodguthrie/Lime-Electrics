@@ -655,7 +655,6 @@ sup {
 
         &.darky {
             color: $light-black;
-            text-transform: uppercase;
             font-weight: 600;
             font-family: $montserrat-family;
         }
@@ -712,7 +711,7 @@ sup {
 
     .content-form {
         padding: 8% 10%;
-        background: $athens-gray;
+        background: $white;
     }
 
     .no-padding-bottom {
