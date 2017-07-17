@@ -7,6 +7,7 @@
 * Built just using public methods/properties of PhotoSwipe.
 * 
 */
+
 (function (root, factory) { 
 	if (typeof define === 'function' && define.amd) {
 		define(factory);
