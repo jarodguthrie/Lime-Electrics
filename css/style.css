@@ -32,8 +32,7 @@
 @import url(jquery.mCustomScrollbar.css);
 @import url(vegas.css);
 /* Google Fonts */
-@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
+
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,200,600");
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 /*
@@ -331,8 +330,10 @@ h2 {
 
 h3 {
   font-size: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
+
+
 
 h4 {
   font-size: 25px;
@@ -651,7 +652,7 @@ sup {
 }
 #info-wrap h1, #info-wrap h2, #info-wrap h3, #info-wrap h4, #info-wrap h5, #info-wrap h6 {
   color: #000000;
-  font-size: 50px;
+  font-size: 30px;
 }
 #info-wrap p {
   color: #747c83;
@@ -2069,7 +2070,6 @@ footer p {
   #home-wrap {
     position: relative;
     width: 100%;
-    height: auto;
     padding: 100px 0 150px;
   }
   #home-wrap.hide-left {
@@ -2083,7 +2083,6 @@ footer p {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    top: auto;
     text-align: center;
   }
 
@@ -2169,16 +2168,20 @@ footer p {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   #home-wrap {
-    padding: 50px 0 100px;
   }
+  
   #home-wrap .content {
     padding: 0 3%;
+    top: 25%;
   }
   #home-wrap .content p {
     font-size: 16px;
   }
   #home-wrap.minimal-phone {
     height: 100vh;
+  }
+  #info-wrap .center-text{
+    padding: 2.5em;
   }
 
   #contact-form {
