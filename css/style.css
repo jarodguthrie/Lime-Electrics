@@ -27,8 +27,6 @@
 @import url(ionicons.min.css);
 @import url(bootstrap.min.css);
 @import url(animate.css);
-@import url(photoswipe.css);
-@import url(default-skin/default-skin.css);
 @import url(jquery.mCustomScrollbar.css);
 @import url(vegas.css);
 /* Google Fonts */
@@ -744,6 +742,7 @@ sup {
   border-top: solid 50px #20232D;
   border-left: solid 50px transparent;
   border-right: solid 50px transparent;
+  display: none;
 }
 #info-wrap .content {
   padding: 0;
@@ -753,7 +752,8 @@ sup {
   background: #ffffff;
 }
 #info-wrap .no-padding-bottom {
-  padding-bottom: 0;
+    padding-bottom: 10%;
+    padding-top: 0;
 }
 #info-wrap .center-text {
   vertical-align: middle;
@@ -2026,7 +2026,7 @@ footer p {
 }
 
 /* ------------------------------------- */
-/* GALLERY PHOTOS ...................... */
+/* GALLERY PHOTOS AND SVGS...................... */
 /* ------------------------------------- */
 .pswp__bg {
   background: #20232D;
@@ -2035,6 +2035,12 @@ footer p {
 .pswp__caption h4 {
   margin-bottom: 10px !important;
 }
+
+.image-box{
+    padding-bottom: : ;
+}
+
+
 
 /* ------------------------------------- */
 /* 8. Media Queries .................... */
@@ -2172,7 +2178,7 @@ footer p {
   
   #home-wrap .content {
     padding: 0 3%;
-    top: 25%;
+    top: 20%;
   }
   #home-wrap .content p {
     font-size: 16px;
@@ -2296,3 +2302,39 @@ footer p {
     font-size: 12px;
   }
 }
+
+
+/************************************************* INFO SECTION *************************************************/
+
+.info{
+  margin-top: 5%;
+}
+
+.border-bottom{
+  border-bottom: 4px solid #20232d;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+
+.icon1{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.icon{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.image-repairs{
+  margin-top: 10%;
+  height: 80px;
+  width: 80px;
+}
+
+
